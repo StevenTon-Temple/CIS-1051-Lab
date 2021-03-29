@@ -16,7 +16,7 @@ def pig():
     print("Turn total:",turn_total)
     return turn_total
     
-#pig()
+pig()
 
 def pig2():
     prob= {}
@@ -38,7 +38,7 @@ def pig2():
         print(str(num) + "\t" + str(prob[num]))   
 
 
-#pig2()
+pig2()
 x = int(input("How many point to hold at? "))
 def holdatx():
     turn_total = 0
@@ -88,7 +88,7 @@ def pig4():
         print('new score', score)
         if roll == 1 or turn_total >= 20:
             break
-#pig4()
+pig4()
     
 def pig5():
     score = 0
@@ -102,7 +102,7 @@ def pig5():
         if score>100:
             break
         return score
-#pig5()
+pig5()
 
 def pig6():
     turn_tot= 0
@@ -114,7 +114,7 @@ def pig6():
         turn_tot = turn
     avg_turn = turn_tot/how
     print(avg_turn)
-#pig6()
+pig6()
 
 def pig7():
     player1 = 0
@@ -179,4 +179,4 @@ def pig8():
             player2 += pig()
         if player1 >=100 or player2>=100:
             break
-#pig8()
+pig8()
